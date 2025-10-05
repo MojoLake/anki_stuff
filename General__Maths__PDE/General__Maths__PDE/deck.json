@@ -99,7 +99,9 @@
         "paste-e6952b3c816e66210d105d4118ad314072100805.jpg",
         "paste-e7578e14b5e7b8fb6bb811bce3a47da6c354a2fa.jpg",
         "paste-e78159fe401e6ac9cb280423c5d81e5d56fa1c30.jpg",
-        "paste-f291a5e69d0b15ed031b86c67a8a5575c3f85f5c.jpg"
+        "paste-f291a5e69d0b15ed031b86c67a8a5575c3f85f5c.jpg",
+        "paste-f66fe9a1b714c589858ed2dfecb496b7fb071ebb.jpg",
+        "paste-fb4b50a565d861c977c05e102c7b3d018bb20f1c.jpg"
     ],
     "name": "General::Maths::PDE",
     "newLimit": null,
@@ -407,6 +409,66 @@
                 ""
             ],
             "guid": "qsuS-*jA?X",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The&nbsp;{{c1::heat kernel}} is of the form&nbsp;{{c2::\\(H_t(\\theta) = \\sum_{j = -\\infty}^{\\infty}e^{-j^2t}e^{ij\\theta}\\)}}",
+                "Reasoning:<br>If g is the initial value, then the convolution of&nbsp;\\(g\\)&nbsp;and&nbsp;\\(H_t\\)&nbsp;is the solution to the heat equation.<br>Can be found by the steps:<br>1. Separation of variables -&gt; find specific form of solution<br>2. Linear combinations of specific form are solutions<br>3. Fourier coefficients"
+            ],
+            "guid": "P!OKSqWM*",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::\\(\\widehat{\\frac{\\partial{f}}{\\partial x_j}}{\\xi}\\)}} =&nbsp; {{c2::\\(i\\xi_j \\widehat{f}(\\xi)\\)}}, that is, {{c3::the Fourier transform turns differentiation into multiplication}}.",
+                "This is one of the core properties of the Fourier transform that makes it a very useful tool for solving PDE's."
+            ],
+            "guid": "P.{EtcQOhB",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A vector of the form&nbsp;{{c1::\\(\\alpha = (\\alpha_1, ..., \\alpha_n)\\)&nbsp;where&nbsp;\\(\\alpha\\in\\mathbb{N} \\cup \\{0\\}\\)}} is called a&nbsp;{{c2::multi-index}} of order&nbsp;\\(|\\alpha| =\\)&nbsp;{{c3::\\(\\alpha_1 + ... + \\alpha_n\\)}}.",
+                ""
+            ],
+            "guid": "gPL3sphcFo",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "For a mult-index&nbsp;\\(\\alpha\\)&nbsp;we define&nbsp;{{c1::<img src=\"paste-fb4b50a565d861c977c05e102c7b3d018bb20f1c.jpg\">}} =&nbsp;{{c2::<img src=\"paste-f66fe9a1b714c589858ed2dfecb496b7fb071ebb.jpg\">}}",
+                ""
+            ],
+            "guid": "Ib+O^bV!n/",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::\\(\\frac{\\hat{\\partial{f}}}{\\partial\\xi_j}(\\xi)\\)&nbsp;}}= {{c2::\\(-i\\widehat{x_j f(x)}(\\xi)\\)&nbsp;(the hat is on top of&nbsp;\\(x_j\\)&nbsp;as well)}}&nbsp;",
+                "Quite straightforward to show by just opening up the LHS. Remember that x and xi are vectors."
+            ],
+            "guid": "z9Ddj+URzI",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The&nbsp;{{c1::Fourier inversion theorem}} states that (under certain assumptions), we have&nbsp;\\(f(x)\\)&nbsp;=&nbsp;{{c2::\\((2\\pi)^{-n} \\int_{\\mathbb{R^n}}\\widehat{f}(\\xi)e^{ix\\cdot\\xi}d\\xi\\)}}.",
+                "Deep result. Nontrivial to prove."
+            ],
+            "guid": "b)Dgl@t5Oy",
             "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
             "tags": []
         }
