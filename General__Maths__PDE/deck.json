@@ -1,0 +1,406 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "c03d7a38-a1c0-11f0-b0ef-95ab6466a5f2",
+    "deck_config_uuid": "c03d7ccc-a1c0-11f0-b0ef-95ab6466a5f2",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "c03d7ccc-a1c0-11f0-b0ef-95ab6466a5f2",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "easyDaysPercentages": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "fsrsParams5": [],
+            "fsrsWeights": [],
+            "ignoreRevlogsBeforeDate": "",
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "questionAction": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": true,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "desiredRetention": null,
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "paste-08d44ae7b90d3ec70f63cdaba1bebef90b50a770.jpg",
+        "paste-0bc3c1f0fbae2c2bc2f69115d2591a54e656c174.jpg",
+        "paste-0c9c9c9964ffcb41132a5ada635ca662d7373743.jpg",
+        "paste-21423d496c396e0a90bf904925e196e83a761b6a.jpg",
+        "paste-33d948efca2d5eb02f70038e4b7efc6c8b5e90e7.jpg",
+        "paste-38e9d0b0eb4b1ad2fb26cff6159969640b666d2c.jpg",
+        "paste-402db6490adf2c34c86c03dc2b81cd3b7d4a14d5.jpg",
+        "paste-462f23e36065f3dea0c578ebdddf58e6ed339b35.jpg",
+        "paste-5918d769bbd2a0da0ced7e9c6dfdbbc333f19e8e.jpg",
+        "paste-6fd718f9319e31ad2868f6737a7d60e65407c292.jpg",
+        "paste-8b843da9214302e12dd3d5bd005a60c8faf49380.jpg",
+        "paste-a11a7c1f6dc3306710eaafb9d1030b6c72d07ed2.jpg",
+        "paste-ac6f6ff1d9ed3f7b765079150c4d1c683e1c7e9c.jpg",
+        "paste-bb2912074b567f3d653ee6137e8e805bea92f286.jpg",
+        "paste-d9b20d9c547cae85ca280b124be89c6190b62703.jpg",
+        "paste-e6952b3c816e66210d105d4118ad314072100805.jpg",
+        "paste-e7578e14b5e7b8fb6bb811bce3a47da6c354a2fa.jpg",
+        "paste-e78159fe401e6ac9cb280423c5d81e5d56fa1c30.jpg",
+        "paste-f291a5e69d0b15ed031b86c67a8a5575c3f85f5c.jpg"
+    ],
+    "name": "General::Maths::PDE",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n.cloze {\n    font-weight: bold;\n    color: blue;\n}\n.nightMode .cloze {\n    color: lightblue;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 2869405722329072449,
+                    "name": "Text",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": true,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": 0
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -8086590967883091371,
+                    "name": "Back Extra",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": 1
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "originalStockKind": 5,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Back Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 1989619295706640918,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c03d87c6-a1c0-11f0-b0ef-95ab6466a5f2",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": 8359092845203064593,
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": -7282091797606353306,
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic (and reversed card)",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 6065031139123565961,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": 881032747654590692,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{Back}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "A vector field is a&nbsp;{{c1::mathematical object that assigns a vector to every point in a region of space.}}",
+                ""
+            ],
+            "guid": "lymyf*stnD",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Laplace equation",
+                "<img src=\"paste-d9b20d9c547cae85ca280b124be89c6190b62703.jpg\">"
+            ],
+            "guid": "FH$%tf#@u*",
+            "note_model_uuid": "c03d87c6-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The&nbsp;{{c1::heat equation}} is of the form&nbsp;{{c2::<img src=\"paste-e6952b3c816e66210d105d4118ad314072100805.jpg\">}}",
+                ""
+            ],
+            "guid": "gu.D.pv~2v",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The&nbsp;{{c1::wave equation}} is of the form&nbsp;{{c2::<img src=\"paste-e7578e14b5e7b8fb6bb811bce3a47da6c354a2fa.jpg\">}}",
+                ""
+            ],
+            "guid": "L[QMC!N69V",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In {{c1::Classical solutions}} to PDE's all partial derivatives which appear in the PDE {{c2::exist}} and {{c3::are continuous}}.",
+                ""
+            ],
+            "guid": "IdLVCiv~yZ",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "A function&nbsp;<img src=\"paste-6fd718f9319e31ad2868f6737a7d60e65407c292.jpg\">&nbsp;belongs to&nbsp;<img src=\"paste-bb2912074b567f3d653ee6137e8e805bea92f286.jpg\">&nbsp;if the LP-norm&nbsp;{{c1::<img src=\"paste-f291a5e69d0b15ed031b86c67a8a5575c3f85f5c.jpg\">}} =&nbsp;{{c2::<img src=\"paste-0c9c9c9964ffcb41132a5ada635ca662d7373743.jpg\">}} &lt;&nbsp;{{c3::<img src=\"paste-38e9d0b0eb4b1ad2fb26cff6159969640b666d2c.jpg\">}}",
+                ""
+            ],
+            "guid": "BvHTqY<zE",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In L^p&nbsp;spaces, two functions that differ only on a set of {{c1::measure zero}} are considered {{c2::the same function}} because the {{c3::Lebesgue integral ignores sets of measure zero}}.",
+                ""
+            ],
+            "guid": "b^%n>fg(~V",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The nth partial sum of a&nbsp;{{c1::Fourier series}} is&nbsp;{{c2::<img src=\"paste-ac6f6ff1d9ed3f7b765079150c4d1c683e1c7e9c.jpg\">}}.",
+                ""
+            ],
+            "guid": "cg$FBEgnd=",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The&nbsp;{{c1::Fourier series}} of f is the&nbsp;{{c2::limit of the partial sums&nbsp;\\(S_nf\\)&nbsp;as&nbsp;\\(n \\rightarrow \\infty\\)}}, where&nbsp;{{c3::<img src=\"paste-21423d496c396e0a90bf904925e196e83a761b6a.jpg\">}}, where&nbsp;{{c4::<img src=\"paste-5918d769bbd2a0da0ced7e9c6dfdbbc333f19e8e.jpg\">}}.",
+                ""
+            ],
+            "guid": "A(l[W2t(lv",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::<img src=\"paste-a11a7c1f6dc3306710eaafb9d1030b6c72d07ed2.jpg\">}} =&nbsp;{{c2::<img src=\"paste-8b843da9214302e12dd3d5bd005a60c8faf49380.jpg\">}}",
+                ""
+            ],
+            "guid": "KjTsc0bACd",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In polar coordinates,&nbsp;<img src=\"paste-402db6490adf2c34c86c03dc2b81cd3b7d4a14d5.jpg\">&nbsp;=&nbsp;{{c1::<img src=\"paste-e78159fe401e6ac9cb280423c5d81e5d56fa1c30.jpg\">}}",
+                ""
+            ],
+            "guid": "lm=[WR^u>R",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The solutions to&nbsp;\\(A'' + \\lambda A = 0\\)when&nbsp;\\(\\lambda = -\\mu^2 &lt; 0\\)&nbsp;are&nbsp;{{c1::<img src=\"paste-33d948efca2d5eb02f70038e4b7efc6c8b5e90e7.jpg\">}}.",
+                ""
+            ],
+            "guid": "n5K.MPnUbH",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The solution for the ODE&nbsp;<img src=\"paste-08d44ae7b90d3ec70f63cdaba1bebef90b50a770.jpg\">&nbsp;is&nbsp;{{c1::<img src=\"paste-0bc3c1f0fbae2c2bc2f69115d2591a54e656c174.jpg\">}}",
+                "This can be solved by saying eg. u(r) = B'(r) because then we get a first-order linear differential equation!"
+            ],
+            "guid": "dg&UF:.T_[",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "The solution for&nbsp;\\(A'' + \\lambda A = 0\\)where&nbsp;\\(\\lambda = \\mu^2 &gt; 0\\)&nbsp;is&nbsp;{{c1::<img src=\"paste-462f23e36065f3dea0c578ebdddf58e6ed339b35.jpg\">}}.",
+                ""
+            ],
+            "guid": "ni^5w9QGpq",
+            "note_model_uuid": "c03d86f4-a1c0-11f0-b0ef-95ab6466a5f2",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
